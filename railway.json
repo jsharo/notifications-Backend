@@ -1,10 +1,8 @@
 {
   "build": {
-    "builder": "@railway/app-runner:node",
+    "builder": "nixpacks",
     "config": {
-      "installCommand": "npm install --omit=dev",
-      "buildCommand": "npm run build",
-      "startCommand": "npm start"
+      "startCommand": "npm run start:prod"
     }
   }
 }
