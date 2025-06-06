@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "@railway/app-runner:node",
+    "config": {
+      "installCommand": "npm install --omit=dev",
+      "buildCommand": "npm run build",
+      "startCommand": "npm start"
+    }
+  }
+}
