@@ -1,8 +1,8 @@
 {
-  "build": {
-    "builder": "nixpacks",
-    "config": {
-      "startCommand": "npm run start:prod"
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@railway/app-runner:node"
     }
-  }
+  ]
 }
